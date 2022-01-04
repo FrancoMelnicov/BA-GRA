@@ -1,0 +1,86 @@
+.bac-header {
+    background-image: url(../../../../assets/images/logos/ba-header-vb.svg), none;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100%;
+}
+
+/*HEADER*/
+.border-gradient {
+    border-top: 6px solid #fdd306;
+}
+#header {
+    height: 85px;
+    border-bottom: 1px solid #cccccc;
+}
+#header #nombre-sitio a{
+    text-decoration: none;
+}
+#header #nombre-sitio h1{
+    float: left;
+    color: #444444;
+}
+#header #logo-sitio .bac-header{
+    height: 40px !important;
+}
+#header #ba-logo {
+    float: right;
+    padding: 0px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+#header #ba-logo:hover/*,
+#header #bac-logo:hover*/ {
+    background-color: transparent;
+}
+
+#header #logo-mobile{
+    text-align: center;
+}
+#header #logo-mobile .nombre-sitio{
+    font-size: 26px;
+    font-family: "CHANEWEI", Helvetica, Arial, sans-serif !important;
+    letter-spacing: -0.0px !important;
+    line-height: initial !important;
+
+    display: inline-block;
+
+    color: #444444;
+}
+#header #logo-mobile .contenedor-logo{
+    display: inline-block;
+}
+
+#header #logo-mobile .contenedor-logo .logo-noclaim{
+    width: 50px;
+    height: 26px;
+
+    display: inline-block;
+
+    background-image: url(../../../../assets/images/logos/ba_logo.png), none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icons-header{
+    float: right!important;
+}
+.icons-header p {display: none;}
+
+ul li a{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.dropdown-toggle{
+    font-weight: bold;
+}
+
+/* Responsive Logo BA */
+@media screen and (max-width: 480px)  {
+.icons-header{float: left!important;}
+.icons-header span{display: none;}
+.icons-header p {display: block;}
+}
+
